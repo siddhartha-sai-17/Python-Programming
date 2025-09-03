@@ -1,0 +1,6 @@
+c_no = int(input())
+c_name  = input()
+p_month = int(input())
+l_month = int(input())
+total = 3.8*(p_month-l_month)
+print(f"customer name :{c_name}, \ncustomer number:{c_no},\npresent month reading :{p_month},\nlast month reading :{l_month},\ntotal bill:{total}")
